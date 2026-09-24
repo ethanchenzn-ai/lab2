@@ -1,0 +1,49 @@
+/* BODY */
+
+body {
+  font-family: Arial;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+
+/* STUDY BOX */
+
+#box {
+  width: 300px;
+  height: 200px;
+  margin: 40px auto;
+  background-color: lightblue;
+}
+
+
+/* TEXT */
+
+#title {
+  padding-top: 50px;
+  font-size: 28px;
+}
+
+#emoji {
+  font-size: 40px;
+}
+
+
+/* BUTTONS */
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+}
+
+
+/* RESULTS */
+
+#result {
+  font-size: 20px;
+}
+
+#windowSize {
+  margin-top: 30px;
+}
