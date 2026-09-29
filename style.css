@@ -1,9 +1,23 @@
+
 /* BODY */
 
 body {
   font-family: Arial;
   text-align: center;
   background-color: whitesmoke;
+
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
+    url("images/beach.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  min-height: 100vh;
+  margin: 0;
+  padding-top: 30px;
+  box-sizing: border-box;
 }
 
 
@@ -14,6 +28,8 @@ body {
   height: 200px;
   margin: 40px auto;
   background-color: lightblue;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px gray;
 }
 
 
@@ -22,6 +38,8 @@ body {
 #title {
   padding-top: 50px;
   font-size: 28px;
+  font-family: "Comic Sans MS", cursive;
+color: darkblue;
 }
 
 #emoji {
@@ -35,6 +53,9 @@ button {
   padding: 10px 20px;
   font-size: 16px;
   margin: 5px;
+  border-radius: 10px;
+background-color: lightyellow;
+cursor: pointer;
 }
 
 
@@ -46,4 +67,9 @@ button {
 
 #windowSize {
   margin-top: 30px;
+}
+/* BUTTON HOVER */
+
+button:hover {
+  background-color: lightpink;
 }

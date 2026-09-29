@@ -11,7 +11,7 @@ document.getElementById("colorButton").addEventListener("click", function() {
 
 document.getElementById("textButton").addEventListener("click", function() {
 
-  document.getElementById("title").innerHTML = "You are almost there!";
+  document.getElementById("title").innerHTML = "Hang in there! You're almost there!";
 
 });
 
@@ -22,7 +22,7 @@ document.addEventListener("keydown", function(event) {
 
   if (event.code == "Space") {
 
-    document.getElementById("result").innerHTML = "Time for a short break!";
+    document.getElementById("result").innerHTML = "Time for a short break!, take a sip of coffee!";
 
     document.getElementById("emoji").innerHTML = "☕";
 
